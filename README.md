@@ -1,4 +1,4 @@
-def count_specific_letter(text, letter):
+def count_specific_letter(text, lette):
     return text.lower().count(letter.lower())
 
 if __name__ == "__main__":
