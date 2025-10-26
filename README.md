@@ -1,2 +1,7 @@
-# daily-commit-043
-My forty-third daily GitHub activity repository
+def count_specific_letter(text, letter):
+    return text.lower().count(letter.lower())
+
+if __name__ == "__main__":
+    sample = "GitHub Daily Commit"
+    letter = "i"
+    print(f"The letter '{letter}' appears {count_specific_letter(sample, letter)} times.")
